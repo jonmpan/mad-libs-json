@@ -3,7 +3,7 @@
     {
       "name": "Classic",
       "description": "Based on the classic chicken and road joke.",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/chicken-1.jpg",
       "text": "Why did the {noun1} named {name1} {verb1} the {adj1} {noun2}? To {verb2} to the other {adj2} {noun3}!",
       "inputs": [
         { "id": "noun1", "question": "Please provide a noun." },
@@ -19,7 +19,7 @@
     {
       "name": "Classic 2",
       "description": "Based on the classic chicken and road joke 2.",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/chicken-2.jpg",
       "text": "Why did the {noun1} named {name1} {verb1} the {adj1} {noun2}? To {verb2} to the other {adj2} {noun3}!",
       "inputs": [
         { "id": "noun1", "question": "Please provide a noun." },
