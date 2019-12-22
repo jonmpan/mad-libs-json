@@ -1,0 +1,36 @@
+{
+  "madLibs": [
+    {
+      "name": "Classic",
+      "description": "Based on the classic chicken and road joke.",
+      "image": "",
+      "text": "Why did the {noun1} named {name1} {verb1} the {adj1} {noun2}? To {verb2} to the other {adj2} {noun3}!",
+      "inputs": [
+        { "id": "noun1", "question": "Please provide a noun." },
+        { "id": "name1", "question": "Please provide a name." },
+        { "id": "verb1", "question": "Please provide a verb." },
+        { "id": "adj1", "question": "Please provide an adjective." },
+        { "id": "noun2", "question": "Please provide another noun." },
+        { "id": "verb2", "question": "Please provide another verb" },
+        { "id": "adj2", "question": "Please provide another adjective" },
+        { "id": "noun3", "question": "Please provide another noun" }
+      ]
+    },
+    {
+      "name": "Classic 2",
+      "description": "Based on the classic chicken and road joke 2.",
+      "image": "",
+      "text": "Why did the {noun1} named {name1} {verb1} the {adj1} {noun2}? To {verb2} to the other {adj2} {noun3}!",
+      "inputs": [
+        { "id": "noun1", "question": "Please provide a noun." },
+        { "id": "name1", "question": "Please provide a name." },
+        { "id": "verb1", "question": "Please provide a verb." },
+        { "id": "adj1", "question": "Please provide an adjective." },
+        { "id": "noun2", "question": "Please provide another noun." },
+        { "id": "verb2", "question": "Please provide another verb" },
+        { "id": "adj2", "question": "Please provide another adjective" },
+        { "id": "noun3", "question": "Please provide another noun" }
+      ]
+    }
+  ]
+}
