@@ -25,7 +25,7 @@
         { "id": "adj1", "question": "Please provide an adjective." },
         { "id": "noun1", "question": "Please provide a noun." },
         { "id": "animal1", "question": "Please provide an animal." },
-        { "id": "sound", "question": "Please provide an adjective." }
+        { "id": "sound1", "question": "Please provide a sound." }
       ]
     }
   ],
