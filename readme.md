@@ -1,4 +1,5 @@
 https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/mad-libs.json
+https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/random-words.json
 
 Photo by Leonardo Jarro from Pexels
 

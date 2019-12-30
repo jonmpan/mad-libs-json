@@ -1,4 +1,19 @@
-const madLibs = require("./mad-libs.json");
+const madLibs = require("./mad-libs.json").madLibs;
+const words = require("./random-words.json");
+words.celebrity = words.celebrityF.concat(words.celebrityM);
+words.name = words.nameF.concat(words.nameM);
+
+console.log(words.celebrity);
+const shuffle = a => {
+  var j, x, i;
+  for (i = a.length - 1; i > 0; i--) {
+    j = Math.floor(Math.random() * (i + 1));
+    x = a[i];
+    a[i] = a[j];
+    a[j] = x;
+  }
+  return a;
+};
 
 const createMadLib = (text, inputs) => {
   inputs.forEach(o => {
@@ -7,6 +22,26 @@ const createMadLib = (text, inputs) => {
   });
   return text;
 };
+
+const getRecommendations = (madLibs, words) => {
+  return madLibs.map(n => {
+    console.log(n);
+    n.inputs = n.inputs.map(o => {
+      var type = o.id.replace(/[0-9]/g, "");
+      o.recommendations = shuffle(words[type]).slice(0, 4);
+      return o;
+    });
+    return n;
+  });
+};
+
+var madLibsNew = getRecommendations(madLibs, words);
+
+madLibsNew.forEach(o => {
+  o.inputs.forEach(p => {
+    console.log(p);
+  });
+});
 
 var inputs = [
   { id: "noun1", value: "cat" },
@@ -19,6 +54,5 @@ var inputs = [
   { id: "noun3", value: "litter box" }
 ];
 
-console.log(inputs);
-
-console.log(createMadLib(madLibs.madLibs[0].text, inputs));
+// console.log(inputs);
+// console.log(createMadLib(madLibs.madLibs[0].text, inputs));
