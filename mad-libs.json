@@ -20,19 +20,39 @@
       "name": "Old MacDonald",
       "description": "Old MacDonald had a what?!?",
       "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/chicken-2.jpg",
-      "text": "{adj1} Macdonald had a {noun1}, E-I-E-I-O... and on that {noun1} he had a {animal1}, E-I-E-I-O... with a {sound1} {sound1} here... and a {sound1} {sound1} there,... here a {sound1}, there a {sound1},... everywhere a {sound1} {sound1},... {adj1} Macdonald had a {noun1}, E-I-E-I-O.",
+      "text": "{adj1} Macdonald had a {noun1}, E-I-E-I-O. and on that {noun1} he had a {animal1}, E-I-E-I-O. with a {ono1} {sound1} here. and a {sound1} {sound1} there. here a {sound1}, there a {sound1}. everywhere a {sound1} {sound1}. {adj1} Macdonald had a {noun1}, E-I-E-I-O.",
       "inputs": [
         { "id": "adj1", "question": "Please provide an adjective." },
         { "id": "noun1", "question": "Please provide a noun." },
         { "id": "animal1", "question": "Please provide an animal." },
-        { "id": "sound1", "question": "Please provide a sound." }
+        { "id": "ono1", "question": "Please provide a sound." }
+      ]
+    },
+    {
+      "name": "Test",
+      "description": "One of each type of word",
+      "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/chicken-2.jpg",
+      "text": "{adj1} {noun1} {animal1} {ono1} {adv1} {gerund1} {bodyPart1} {animal1} {nounPlural1} {celebrity1} {celebrityF1} {celebrityM1} {name1} {nameF1} {nameM1}",
+      "inputs": [
+        { "id": "adj1", "question": "Please provide an adjective." },
+        { "id": "noun1", "question": "Please provide a noun." },
+        { "id": "animal1", "question": "Please provide an animal." },
+        { "id": "ono1", "question": "Please provide an onomatopoeia." },
+        { "id": "adv1", "question": "Please provide an adverb." },
+        { "id": "gerund1", "question": "Please provide a gerund." },
+        { "id": "bodyPart1", "question": "Please provide a body part." },
+        { "id": "animal1", "question": "Please provide an animal." },
+        { "id": "nounPlural1", "question": "Please provide a plural noun." },
+        { "id": "celebrity1", "question": "Please provide a celebrity." },
+        {
+          "id": "celebrityF1",
+          "question": "Please provide a female celebrity."
+        },
+        { "id": "celebrityM1", "question": "Please provide a male celebrity." },
+        { "id": "name1", "question": "Please provide a name." },
+        { "id": "nameF1", "question": "Please provide a female name." },
+        { "id": "nameM1", "question": "Please provide a male name." }
       ]
     }
-  ],
-  "randomWords": [
-    { "noun": ["poop", "toilet", "hamburger"] },
-    { "verb": ["run", "fly", "collapse"] },
-    { "adj": ["fat", "skinny", "smart"] },
-    { "adjective": ["fat", "skinny", "smart"] }
   ]
 }
