@@ -62,7 +62,7 @@
         { "id": "name1", "question": "What is your name?" },
         { "id": "number1", "question": "Please provide a small whole number." },
         { "id": "adj1", "question": "Please provide a riveting adjective." },
-        { "id": "pokemon1", "question": "Now, give me a Pokemon." }
+        { "id": "pokemon1", "question": "Now, give me a Pokemon." },
         { "id": "name2", "question": "What is your favorite name?" },
         { "id": "number2", "question": "Please provide a large whole number." },
         { "id": "verb1", "question": "Please provide a verb?" },
