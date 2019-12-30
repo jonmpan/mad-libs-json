@@ -53,6 +53,21 @@
         { "id": "nameF1", "question": "Please provide a female name." },
         { "id": "nameM1", "question": "Please provide a male name." }
       ]
+    },
+    {
+      "name": "Becoming a Pokemon Master",
+      "description": "Your journey to becoming a Pokemon Master",
+      "text": "Welcome {name1}. You are {number1} years old and you are starting your Pokemon journey with your {adj1} {pokemon1}, nicknamed {name2}. After defeating {number2} Rattatas, you're finally ready to {verb1} Brock's level 12 Onix. After getting all 8 badges, you catch a {pokemon2} with your one and only Masterball. With your {adj1} {name2} and your {pokemon2}, you challenge the {adj2} 4! To be continued...",
+      "inputs": [
+        { "id": "name1", "question": "What is your name?" },
+        { "id": "number1", "question": "Please provide a small whole number." },
+        { "id": "adj1", "question": "Please provide a riveting adjective." },
+        { "id": "pokemon1", "question": "Now, give me a Pokemon." }
+        { "id": "name2", "question": "What is your favorite name?" },
+        { "id": "number2", "question": "Please provide a large whole number." },
+        { "id": "verb1", "question": "Please provide a verb?" },
+        { "id": "pokemon2", "question": "How about another Pokemon?" }
+      ]
     }
   ]
 }

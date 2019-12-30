@@ -1,0 +1,12 @@
+{
+  "name": "Old MacDonald",
+  "description": "Old MacDonald had a what?!?",
+  "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/chicken-2.jpg",
+  "text": "{adj1} Macdonald had a {noun1}, E-I-E-I-O. and on that {noun1} he had a {animal1}, E-I-E-I-O. with a {ono1} {ono1} here. and a {ono1} {ono1} there. here a {ono1}, there a {ono1}. everywhere a {ono1} {ono1}. {adj1} Macdonald had a {noun1}, E-I-E-I-O.",
+  "inputs": [
+    { "id": "adj1", "question": "Please provide an adjective." },
+    { "id": "noun1", "question": "Please provide a noun." },
+    { "id": "animal1", "question": "Please provide an animal." },
+    { "id": "ono1", "question": "Please provide a sound." }
+  ]
+}
