@@ -75,15 +75,15 @@
       "name": "Bucketlist",
       "description": "A bucket list full of poop. Made by Mackenzie.",
       "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/bucket.jpg",
-      "text": "My Bucketlist: <br>1. {verb1} to {place1} <br>2. Go {gerund1} at {place2} <br>3. Get {celebrityM1}'s autograph <br>4. {verb2} in a {noun1} ",
+      "text": "My Bucketlist: <br>1. {verb1} at {place1}<br>2. Go {gerund1} at {place2}<br>3. Get {celebrityM1}'s autograph <br>4. {verb2} in a {noun1}",
       "inputs": [
-        { "id": "verb1", "question": "Please provide a verb." },
-        { "id": "place1", "question": "Please provide a place." },
-        { "id": "gerund1", "question": "Please provide a gerund." },
+        { "id": "verb1", "question": "Please provide a movement verb." },
+        { "id": "place1", "question": "Provide a place." },
+        { "id": "gerund1", "question": "Please provide a verb ending in ing." },
+        { "id": "verb2", "question": "Now for a verb that is doing something in something." },
         { "id": "place2", "question": "Please provide a place." },
         { "id": "celebrityM1", "question": "Please provide a celebrity." },
-        { "id": "verb2", "question": "Please provide a verb." },
-        { "id": "noun1", "question": "Please provide a noun." }
+        { "id": "noun1", "question": "Please provide a object that can hold something." }
       ]
     },
     {
