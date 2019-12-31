@@ -90,7 +90,7 @@
       "name": "Dream Man",
       "description": "Your dream man.",
       "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/dream-man-2.jpg",
-      "text": "My dream man should be {adj1} and {adj2}. I want his {bodyPart1} to be like {celebrity1} and his {bodyPart2} to be like {name1}'s. His intelligence should be that of a {animal1} and he should always wash my {bodyPart3}. I hope he takes me to {place1}, where he should whisper {adj3} into my {bodyPart4}. Such a perfect man is hard to find, but I think I've found him in {name2}.",
+      "text": "My dream man should be {adj1} and {adj2}. I want his {bodyPart1} to be like {celebrity1} and his {bodyPart2} to be like {name1}'s.<br>His intelligence should be that of a {animal1} and he should always wash my {bodyPart3}. I hope he takes me to {place1}, where he should whisper {adj3} into my {bodyPart4}. Such a perfect man is hard to find, but I think I've found him in {name2}.",
       "inputs": [
         { "id": "adj1", "question": "Please provide an adjective." },
         { "id": "adj2", "question": "Please provide another adjective." },
