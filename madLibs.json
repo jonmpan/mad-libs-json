@@ -32,7 +32,7 @@
       "name": "Test",
       "description": "One of each type of word",
       "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/chicken-2.jpg",
-      "text": "{adj1} {noun1} {animal1} {ono1} {adv1} {gerund1} {bodyPart1} {animal1} {nounPlural1} {celebrity1} {celebrityF1} {celebrityM1} {name1} {nameF1} {nameM1}",
+      "text": "{adj1} {noun1} {animal1} {ono1} {adv1} {gerund1} {bodyPart1} {animal1} {nounPlural1} {celebrity1} {celebrityF1} {celebrityM1} {name1} {nameF1} {nameM1} {pokemon1} {number1}",
       "inputs": [
         { "id": "adj1", "question": "Please provide an adjective." },
         { "id": "noun1", "question": "Please provide a noun." },
@@ -69,6 +69,21 @@
         { "id": "verb1", "question": "Please provide a verb." },
         { "id": "pokemon2", "question": "How about another Pokemon?" },
         { "id": "adj2", "question": "Last one! I need another adjective." }
+      ]
+    },
+    {
+      "name": "Bucketlist",
+      "description": "poop",
+      "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/chicken-2.jpg",
+      "text": "My Bucketlist: <br>1. {verb1} to {place1} <br>2. Go {gerund1} at {place2} <br>3. Get {celebrityM1}'s autograph <br>4. {verb2} in a {noun1} ",
+      "inputs": [
+        { "id": "verb1", "question": "Please provide a verb." },
+        { "id": "place1", "question": "Please provide a place." },
+        { "id": "gerund1", "question": "Please provide a gerund." },
+        { "id": "place2", "question": "Please provide a place." },
+        { "id": "celebrityM1", "question": "Please provide a celebrity." },
+        { "id": "verb2", "question": "Please provide a verb." },
+        { "id": "noun1", "question": "Please provide a noun." }
       ]
     }
   ]
