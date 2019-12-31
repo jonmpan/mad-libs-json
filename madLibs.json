@@ -74,7 +74,7 @@
     {
       "name": "Bucketlist",
       "description": "poop",
-      "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/chicken-2.jpg",
+      "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/bucket.jpg",
       "text": "My Bucketlist: <br>1. {verb1} to {place1} <br>2. Go {gerund1} at {place2} <br>3. Get {celebrityM1}'s autograph <br>4. {verb2} in a {noun1} ",
       "inputs": [
         { "id": "verb1", "question": "Please provide a verb." },
