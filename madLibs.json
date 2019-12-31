@@ -58,7 +58,7 @@
       "name": "Becoming a Pokemon Master",
       "description": "Your journey to becoming a Pokemon Master",
       "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/dat-ash.png",
-      "text": "Welcome {name1}, to the world of Pokemon. You are {number1} years old and you are starting your Pokemon journey with your {adj1} {pokemon1}, nicknamed {name2}. After defeating {number2} Rattatas, you're finally ready to {verb1} Brock's level 12 Onix. After defeating him, you catch a {pokemon2} with your one and only Masterball. With your {adj1} {name2} and your {pokemon2}, you continue your journey to eventually challenge the {adj2} 4!",
+      "text": "Welcome {name1}, to the world of Pokemon. You are {number1} years old and you are starting your Pokemon journey with your {adj1} {pokemon1}, nicknamed {name2}. You train intensely and beat up {number2} Rattatas. Now you're finally ready to {verb1} Brock's level 12 Onix. After defeating Brock, you catch a {pokemon2} with your one and only Masterball. With your {adj1} {pokemon1}, {name2}, and your {pokemon2}, you continue your journey to eventually challenge the {adj2} 4!",
       "inputs": [
         { "id": "name1", "question": "What is your name?" },
         { "id": "number1", "question": "Please provide a small whole number." },
@@ -75,7 +75,7 @@
       "name": "Bucketlist",
       "description": "A bucket list full of poop. Made by Mackenzie.",
       "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/bucket.jpg",
-      "text": "My Bucketlist: <br>1. {verb1} at {place1}<br>2. Go {gerund1} at {place2}<br>3. Get {celebrityM1}'s autograph <br>4. {verb2} in a {noun1}",
+      "text": "My Bucketlist: <br>1. {verb1} to {place1}<br>2. Go {gerund1} at {place2}<br>3. Get {celebrityM1}'s autograph <br>4. {verb2} in a {noun1}",
       "inputs": [
         { "id": "verb1", "question": "Please provide a movement verb." },
         { "id": "place1", "question": "Provide a place." },
