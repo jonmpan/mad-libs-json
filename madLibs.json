@@ -19,7 +19,7 @@
     {
       "name": "Old MacDonald",
       "description": "Old MacDonald had a what?!?",
-      "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/chicken-2.jpg",
+      "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/farmer.jpg",
       "text": "{adj1} Macdonald had a {noun1}<br>E-I-E-I-O<br>And on that {noun1} he had a {animal1}<br>E-I-E-I-O<br>With a {ono1} {ono1} here<br>And a {ono1} {ono1} there<br>Here a {ono1}, there a {ono1}<br>Everywhere a {ono1} {ono1}<br>{adj1} Macdonald had a {noun1}<br>E-I-E-I-O.",
       "inputs": [
         { "id": "adj1", "question": "Please provide an adjective." },
