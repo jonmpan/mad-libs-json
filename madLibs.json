@@ -1,7 +1,7 @@
 {
   "madLibs": [
     {
-      "name": "Chicken and the road",
+      "name": "Why did the chicken cross the road?",
       "description": "Based on the classic chicken and road joke.",
       "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/chicken-1.jpg",
       "text": "Why did the {noun1} named {name1} {verb1} the {adj1} {noun2}? To {verb2} to the other {adj2} {noun3}!",
