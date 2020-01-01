@@ -137,7 +137,14 @@
     },
     {
       "name": "Walmart Shopping",
-      "tags": ["Walmart Shopping", "Walmart", "Shopping"],
+      "tags": [
+        "Walmart Shopping",
+        "Walmart",
+        "Shopping",
+        "test",
+        "test2",
+        "test3"
+      ],
       "description": "Shopping at Walmart!",
       "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/walmart.jpg",
       "text": "Come {verb1} at WALMART, where you`ll receive {adj1} discounts on all of your favorite brand name {nounPlural1}. Our {adj2} and {gerund1} associates are there to {verb2} you {number1} hours a day. Here you will find {adj3} prices on the {nounPlural2} you need. {nounPlural3} for the moms, {nounPlural4} for the kids and all the latest electronics for the {relative1}. So come on down to your {adj4} {adj5} WALMART where the {nounPlural5} come first.",
