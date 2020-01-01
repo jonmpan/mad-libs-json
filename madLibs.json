@@ -108,7 +108,7 @@
     {
       "name": "Test",
       "description": "One of each type of word",
-      "tags": ["Test"],
+      "tags": ["Test", "testing"],
       "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/chicken-2.jpg",
       "text": "{adj1} {noun1} {animal1} {ono1} {adv1} {gerund1} {bodyPart1} {animal1} {nounPlural1} {celebrity1} {celebrityF1} {celebrityM1} {name1} {nameF1} {nameM1} {pokemon1} {number1} {place1}",
       "inputs": [
