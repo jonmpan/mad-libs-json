@@ -93,7 +93,7 @@
       "name": "Test",
       "description": "One of each type of word",
       "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/chicken-2.jpg",
-      "text": "{adj1} {noun1} {animal1} {ono1} {adv1} {gerund1} {bodyPart1} {animal1} {nounPlural1} {celebrity1} {celebrityF1} {celebrityM1} {name1} {nameF1} {nameM1} {pokemon1} {number1}",
+      "text": "{adj1} {noun1} {animal1} {ono1} {adv1} {gerund1} {bodyPart1} {animal1} {nounPlural1} {celebrity1} {celebrityF1} {celebrityM1} {name1} {nameF1} {nameM1} {pokemon1} {number1} {place1}",
       "inputs": [
         { "id": "adj1", "question": "Please provide an adjective." },
         { "id": "noun1", "question": "Please provide a noun." },
@@ -114,7 +114,31 @@
         { "id": "nameF1", "question": "Please provide a female name." },
         { "id": "nameM1", "question": "Please provide a male name." },
         { "id": "pokemon1", "question": "Please provide a Pokemon." },
-        { "id": "number1", "question": "Please provide a number." }
+        { "id": "number1", "question": "Please provide a number." },
+        { "id": "place1", "question": "Please provide a place." }
+      ]
+    },
+    {
+      "name": "Walmart Shopping",
+      "description": "Shopping at Walmart!",
+      "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/chicken-2.jpg",
+      "text": "Come ${verb1} at WALMART, where you`ll receive ${adj1} discounts on all of your favorite brand name ${nounPlural1}. Our ${adj2} and ${gerund1} associates are there to ${verb2} you ${number1} hours a day. Here you will find ${adj3} prices on the ${nounPlural2} you need. ${nounPlural3} for the moms, ${nounPlural4} for the kids and all the latest electronics for the ${relative1}. So come on down to your ${adj4} ${adj5} WALMART where the ${nounPlural5} come first.",
+      "inputs": [
+        { "id": "verb1", "question": "Please provide a verb." },
+        { "id": "adj1", "question": "Now give me an adjective!" },
+        { "id": "nounPlural1", "question": "Next, I need a plural noun." },
+        { "id": "adj2", "question": "Give me another adjective." },
+        { "id": "gerund1", "question": "Please provide a verb ending in ing." },
+        { "id": "verb2", "question": "I need another verb." },
+        { "id": "number1", "question": "Please provide a number." },
+        { "id": "adj3", "question": "I need another adjective." },
+        { "id": "nounPlural2", "question": "Give me a plural noun." },
+        { "id": "nounPlural3", "question": "Give me another plural noun." },
+        { "id": "nounPlural4", "question": "I need ANOTHER plural noun." },
+        { "id": "relative1", "question": "Please provide a type of relative." },
+        { "id": "adj4", "question": "I need an adjective." },
+        { "id": "adj5", "question": "One more adjective." },
+        { "id": "nounPlural5", "question": "Last one! Plural noun." }
       ]
     }
   ]
