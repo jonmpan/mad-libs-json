@@ -122,7 +122,7 @@
       "name": "Walmart Shopping",
       "description": "Shopping at Walmart!",
       "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/chicken-2.jpg",
-      "text": "Come ${verb1} at WALMART, where you`ll receive ${adj1} discounts on all of your favorite brand name ${nounPlural1}. Our ${adj2} and ${gerund1} associates are there to ${verb2} you ${number1} hours a day. Here you will find ${adj3} prices on the ${nounPlural2} you need. ${nounPlural3} for the moms, ${nounPlural4} for the kids and all the latest electronics for the ${relative1}. So come on down to your ${adj4} ${adj5} WALMART where the ${nounPlural5} come first.",
+      "text": "Come {verb1} at WALMART, where you`ll receive {adj1} discounts on all of your favorite brand name {nounPlural1}. Our {adj2} and {gerund1} associates are there to {verb2} you {number1} hours a day. Here you will find {adj3} prices on the {nounPlural2} you need. {nounPlural3} for the moms, {nounPlural4} for the kids and all the latest electronics for the {relative1}. So come on down to your {adj4} {adj5} WALMART where the {nounPlural5} come first.",
       "inputs": [
         { "id": "verb1", "question": "Please provide a verb." },
         { "id": "adj1", "question": "Now give me an adjective!" },
