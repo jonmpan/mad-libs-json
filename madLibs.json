@@ -106,36 +106,6 @@
       ]
     },
     {
-      "name": "Test",
-      "description": "One of each type of word",
-      "tags": ["Test"],
-      "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/chicken-2.jpg",
-      "text": "{adj1} {noun1} {animal1} {ono1} {adv1} {gerund1} {bodyPart1} {animal1} {nounPlural1} {celebrity1} {celebrityF1} {celebrityM1} {name1} {nameF1} {nameM1} {pokemon1} {number1} {place1}",
-      "inputs": [
-        { "id": "adj1", "question": "Please provide an adjective." },
-        { "id": "noun1", "question": "Please provide a noun." },
-        { "id": "animal1", "question": "Please provide an animal." },
-        { "id": "ono1", "question": "Please provide an onomatopoeia." },
-        { "id": "adv1", "question": "Please provide an adverb." },
-        { "id": "gerund1", "question": "Please provide a gerund." },
-        { "id": "bodyPart1", "question": "Please provide a body part." },
-        { "id": "animal1", "question": "Please provide an animal." },
-        { "id": "nounPlural1", "question": "Please provide a plural noun." },
-        { "id": "celebrity1", "question": "Please provide a celebrity." },
-        {
-          "id": "celebrityF1",
-          "question": "Please provide a female celebrity."
-        },
-        { "id": "celebrityM1", "question": "Please provide a male celebrity." },
-        { "id": "name1", "question": "Please provide a name." },
-        { "id": "nameF1", "question": "Please provide a female name." },
-        { "id": "nameM1", "question": "Please provide a male name." },
-        { "id": "pokemon1", "question": "Please provide a Pokemon." },
-        { "id": "number1", "question": "Please provide a number." },
-        { "id": "place1", "question": "Please provide a place." }
-      ]
-    },
-    {
       "name": "Walmart Shopping",
       "tags": [
         "Walmart Shopping",
@@ -164,6 +134,62 @@
         { "id": "adj4", "question": "I need an adjective." },
         { "id": "adj5", "question": "One more adjective." },
         { "id": "nounPlural5", "question": "Last one! Plural noun." }
+      ]
+    },
+    {
+      "name": "Romantic Wedding",
+      "description": "Look at title.",
+      "tags": ["Best Wedding Ever", "wedding", "best", "ever", "best wedding"],
+      "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/chicken-2.jpg",
+      "text": "{name1}'s and {celebrity1}'s {adj1} wedding had {number1} guests attend. During the ceremony, the bride {adv1} vowed to {verb1} the groom's {bodyPart1} for the rest of their lives. All the guests {verbPast1} when the groom vowed to {verb2} the bride in {adj2} matrimony. At the {adj3} reception, filled with {nounPlural1} and {noun2} centerpieces, {relative1} stunned the crowd when he {adv2} {verb3}. The groom and bride lived {adv3} ever after.",
+      "inputs": [
+        { "id": "name1", "question": "Please provide the name of the bride." },
+        { "id": "celebrity1", "question": "Please provide a celebrity." },
+        { "id": "adj1", "question": "Now for an adjective." },
+        { "id": "number1", "question": "Give me a number." },
+        { "id": "adv1", "question": "Now for an adverb." },
+        { "id": "verb1", "question": "I need a verb." },
+        { "id": "verbPast1", "question": "Give me a past tense verb." },
+        { "id": "verb2", "question": "Provide another verb." },
+        { "id": "adj2", "question": "Now for another adjective." },
+        { "id": "adj3", "question": "Now I need a third adjective." },
+        { "id": "nounPlural1", "question": "Give me a plural noun." },
+        { "id": "noun2", "question": "Please  provide a single noun." },
+        { "id": "relative1", "question": "Please provide a relative." },
+        { "id": "adv2", "question": "Please provide another adverb" },
+        { "id": "verb3", "question": "Almost done, provide another verb" },
+        { "id": "adv3", "question": "Last one! Please provide another adverb" }
+      ]
+    },
+    {
+      "name": "Test",
+      "description": "One of each type of word",
+      "tags": ["Test"],
+      "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/chicken-2.jpg",
+      "text": "{adj1} {noun1} {animal1} {ono1} {adv1} {gerund1} {bodyPart1} {animal1} {nounPlural1} {celebrity1} {celebrityF1} {celebrityM1} {name1} {nameF1} {nameM1} {pokemon1} {number1} {place1} {relative1}",
+      "inputs": [
+        { "id": "adj1", "question": "Please provide an adjective." },
+        { "id": "noun1", "question": "Please provide a noun." },
+        { "id": "animal1", "question": "Please provide an animal." },
+        { "id": "ono1", "question": "Please provide an onomatopoeia." },
+        { "id": "adv1", "question": "Please provide an adverb." },
+        { "id": "gerund1", "question": "Please provide a gerund." },
+        { "id": "bodyPart1", "question": "Please provide a body part." },
+        { "id": "animal1", "question": "Please provide an animal." },
+        { "id": "nounPlural1", "question": "Please provide a plural noun." },
+        { "id": "celebrity1", "question": "Please provide a celebrity." },
+        {
+          "id": "celebrityF1",
+          "question": "Please provide a female celebrity."
+        },
+        { "id": "celebrityM1", "question": "Please provide a male celebrity." },
+        { "id": "name1", "question": "Please provide a name." },
+        { "id": "nameF1", "question": "Please provide a female name." },
+        { "id": "nameM1", "question": "Please provide a male name." },
+        { "id": "pokemon1", "question": "Please provide a Pokemon." },
+        { "id": "number1", "question": "Please provide a number." },
+        { "id": "place1", "question": "Please provide a place." },
+        { "id": "relative1", "question": "Please provide a relative." }
       ]
     }
   ]
