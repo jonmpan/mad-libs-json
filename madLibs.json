@@ -169,7 +169,7 @@
       "description": "What does a cat do every day? Try this to find out!",
       "tags": ["cat", "a day in a cat's life"],
       "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/chicken-2.jpg",
-      "text": "The cat named {name1}, woke up after sleeping for {number1} hours. Then {name1} found a terrifying {noun1} in its litter box! In response, {name1} {verbPast1} {noun1}. {name1} started {adv1} meowing because it hadn't been fed for {number2} seconds. After being fed {noun2}, {name1} went up to its owner and {adv2} {verb1} its owner's {bodyPart1}.",
+      "text": "The cat named {name1}, woke up after sleeping for {number1} hours. Then {name1} found a terrifying {noun1} in its litter box! In response, {name1} {verbPast1} the {noun1}. {name1} started {adv1} meowing because it hadn't been fed for {number2} seconds. After being fed {noun2}, {name1} went up to its owner and {adv2} {verbPast2} its owner's {bodyPart1}.",
       "inputs": [
         { "id": "name1", "question": "Please provide the name of the cat." },
         { "id": "number1", "question": "I recommend a large number." },
@@ -185,7 +185,10 @@
         { "id": "number2", "question": "A small number here would be funny." },
         { "id": "noun2", "question": "Provide another noun." },
         { "id": "adv2", "question": "I need another adverb." },
-        { "id": "verb1", "question": "Almost there! Give me a verb." },
+        {
+          "id": "verbPast2",
+          "question": "Almost there! Give me a past tense verb."
+        },
         {
           "id": "bodyPart1",
           "question": "Last one! I need a body part to continue."
