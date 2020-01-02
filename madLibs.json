@@ -138,10 +138,10 @@
     },
     {
       "name": "Romantic Wedding",
-      "description": "Look at title.",
+      "description": "Customize your romantic wedding adventure.",
       "tags": ["Best Wedding Ever", "wedding", "best", "ever", "best wedding"],
       "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/chicken-2.jpg",
-      "text": "{name1}'s and {celebrity1}'s {adj1} wedding had {number1} guests attend. During the ceremony, the bride {adv1} vowed to {verb1} the groom's {bodyPart1} for the rest of their lives. All the guests {verbPast1} when the groom vowed to {verb2} the bride in {adj2} matrimony. At the {adj3} reception, filled with {nounPlural1} and {noun2} centerpieces, {relative1} stunned the crowd when he {adv2} {verb3}.<br>The groom and bride lived {adv3} ever after.",
+      "text": "{name1}'s and {celebrity1}'s {adj1} wedding had {number1} guests attend. During the ceremony, the bride {adv1} vowed to {verb1} the groom's {bodyPart1} for the rest of their lives. All the guests {verbPast1} when the groom vowed to {verb2} the bride in {adj2} matrimony. At the {adj3} reception, filled with {nounPlural1} and {noun2} centerpieces, {relative1} stunned the crowd by {gerund1}.<br>The groom and bride lived {adv3} ever after.",
       "inputs": [
         { "id": "name1", "question": "Please provide the name of the bride." },
         { "id": "celebrity1", "question": "Please provide a celebrity." },
@@ -157,9 +157,39 @@
         { "id": "nounPlural1", "question": "Give me a plural noun." },
         { "id": "noun2", "question": "Please  provide a single noun." },
         { "id": "relative1", "question": "Please provide a relative." },
-        { "id": "adv2", "question": "Please provide another adverb" },
-        { "id": "verb3", "question": "Almost done, provide another verb" },
+        {
+          "id": "gerund1",
+          "question": "Almost done! Please provide a gerund, a verb ending in ing."
+        },
         { "id": "adv3", "question": "Last one! Please provide another adverb" }
+      ]
+    },
+    {
+      "name": "A day in a cat's life",
+      "description": "What does a cat do every day? Try this to find out!",
+      "tags": ["cat", "a day in a cat's life"],
+      "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/chicken-2.jpg",
+      "text": "The cat named {name1}, woke up after sleeping for {number1} hours. Then {name1} found a terrifying {noun1} in its litter box! In response, {name1} {verbPast1} {noun1}. {name1} started {adv1} meowing because it hadn't been fed for {number2} seconds. After being fed {noun2}, {name1} went up to its owner and {adv2} {verb1} its owner's {bodyPart1}.",
+      "inputs": [
+        { "id": "name1", "question": "Please provide the name of the cat." },
+        { "id": "number1", "question": "I recommend a large number." },
+        {
+          "id": "noun1",
+          "question": "How about a noun, one that is scary 🙀!"
+        },
+        {
+          "id": "verbPast1",
+          "question": "Now I need a past tense verb, ending in ed."
+        },
+        { "id": "adv1", "question": "Quickly give me an adverb!" },
+        { "id": "number2", "question": "A small number here would be funny." },
+        { "id": "noun2", "question": "Provide another noun." },
+        { "id": "adv2", "question": "I need another adverb." },
+        { "id": "verb1", "question": "Almost there! Give me a verb." },
+        {
+          "id": "bodyPart1",
+          "question": "Last one! I need a body part to continue."
+        }
       ]
     },
     {
