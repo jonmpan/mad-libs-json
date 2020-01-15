@@ -25,7 +25,10 @@
       "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/bucket.png",
       "text": "My Bucketlist: <br>1. {verb1} to {place1}<br>2. Go {gerund1} at {place2}<br>3. Get {celebrityM1}'s autograph <br>4. {verb2} in a {noun1}",
       "inputs": [
-        { "id": "verb1", "question": "Please provide a movement verb." },
+        {
+          "id": "verb1",
+          "question": "Please provide a present tense movement verb, like walk, crawl, and roll."
+        },
         { "id": "place1", "question": "Provide a place." },
         { "id": "gerund1", "question": "Please provide a verb ending in ing." },
         {
@@ -52,9 +55,9 @@
         { "id": "adj3", "question": "Please provide a third adjective." },
         { "id": "place1", "question": "Please provide a place." },
         { "id": "bodyPart1", "question": "What is the cutest body part?" },
-        { "id": "bodyPart2", "question": "How about the uglist body part?" },
+        { "id": "bodyPart2", "question": "How about the ugliest body part?" },
         { "id": "bodyPart3", "question": "What is your favorite body part?" },
-        { "id": "bodyPart4", "question": "Now fo the last body part!" },
+        { "id": "bodyPart4", "question": "Now for the last body part!" },
         { "id": "animal1", "question": "Now, give me an animal." },
         { "id": "celebrity1", "question": "Please provide a celebrity." },
         { "id": "name1", "question": "Give me the name of a person you know." },
