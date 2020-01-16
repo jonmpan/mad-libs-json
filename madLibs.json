@@ -128,7 +128,7 @@
         {
           "id": "noun1",
           "question": "Please provide a object that can hold something."
-        }
+        },
         { "id": "place2", "question": "Please provide another place." },
         { "id": "celebrityM1", "question": "Please provide a celebrity." }
       ]
