@@ -12,14 +12,17 @@
       ],
       "description": "Shopping at Walmart!",
       "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/walmart.png",
-      "text": "Come {verb1} at WALMART, where you`ll receive {adj1} discounts on all of your favorite brand name {nounPlural1}. Our {adj2} and {gerund1} associates are there to {verb2} you {number1} hours a day. Here you will find {adj3} prices on the {nounPlural2} you need. {nounPlural3} for the moms, {nounPlural4} for the kids and all the latest electronics for the {relative1}. So come on down to your {adj4} {adj5} WALMART where the {nounPlural5} come first.",
+      "text": "Come {verbIntransitive1} at WALMART, where you`ll receive {adj1} discounts on all of your favorite brand name {nounPlural1}. Our {adj2} and {gerund1} associates are there to {verbTransitive1} you {number1} hours a day. Here you will find {adj3} prices on the {nounPlural2} you need. {nounPlural3} for the moms, {nounPlural4} for the kids and all the latest electronics for the {relative1}. So come on down to your {adj4} {adj5} WALMART where the {nounPlural5} come first.",
       "inputs": [
-        { "id": "verb1", "question": "Please provide a verb." },
+        {
+          "id": "verbIntransitive1",
+          "question": "Please provide an instransitive verb."
+        },
         { "id": "adj1", "question": "Now give me an adjective!" },
         { "id": "nounPlural1", "question": "Next, I need a plural noun." },
         { "id": "adj2", "question": "Give me another adjective." },
         { "id": "gerund1", "question": "Please provide a verb ending in ing." },
-        { "id": "verb2", "question": "I need another verb." },
+        { "id": "verbTransitive1", "question": "I need a transitive verb." },
         { "id": "number1", "question": "Please provide a number." },
         { "id": "adj3", "question": "I need another adjective." },
         { "id": "nounPlural2", "question": "Give me a plural noun." },
@@ -36,17 +39,23 @@
       "description": "Customize your romantic wedding adventure.",
       "tags": ["Best Wedding Ever", "wedding", "best", "ever", "best wedding"],
       "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/wedding.png",
-      "text": "{name1}'s and {celebrity1}'s {adj1} wedding had {number1} guests attend. During the ceremony, the bride {adv1} vowed to {verb1} the groom's {bodyPart1} for the rest of their lives. All the guests {verbPast1} when the groom vowed to {verb2} the bride in {adj2} matrimony. At the {adj3} reception, filled with {nounPlural1} and {noun2} centerpieces, {relative1} stunned the crowd by {gerund1}.<br>The groom and bride lived {adv3} ever after.",
+      "text": "{name1}'s and {celebrity1}'s {adj1} wedding had {number1} guests attend. During the ceremony, the bride {adv1} vowed to {verbTransitive1} the groom's {bodyPart1} for the rest of their lives. All the guests {verbIntransitivePast1} when the groom vowed to {verbTransitive2} the bride in {adj2} matrimony. At the {adj3} reception, filled with {nounPlural1} and {noun2} centerpieces, {relative1} stunned the crowd by {gerund1}.<br>The groom and bride lived {adv3} ever after.",
       "inputs": [
         { "id": "name1", "question": "Please provide the name of the bride." },
         { "id": "celebrity1", "question": "Please provide a celebrity." },
         { "id": "adj1", "question": "Now for an adjective." },
         { "id": "number1", "question": "Give me a number." },
         { "id": "adv1", "question": "Now for an adverb." },
-        { "id": "verb1", "question": "I need a verb." },
+        { "id": "verbTransitive1", "question": "I need a transitive verb." },
         { "id": "bodyPart1", "question": "Yo quiero a body part." },
-        { "id": "verbPast1", "question": "Give me a past tense verb." },
-        { "id": "verb2", "question": "Provide another verb." },
+        {
+          "id": "verbIntransitivePast1",
+          "question": "Give me a past tense intransitive verb."
+        },
+        {
+          "id": "verbTransitive2",
+          "question": "Provide another transitive verb."
+        },
         { "id": "adj2", "question": "Now for another adjective." },
         { "id": "adj3", "question": "Now I need a third adjective." },
         { "id": "nounPlural1", "question": "Give me a plural noun." },
@@ -94,7 +103,7 @@
       "description": "Your journey to becoming a Pokemon Master",
       "tags": ["Becoming a Pokemon Master", "Pokemon", "Pokemon Master"],
       "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/dat-ash.png",
-      "text": "Welcome {name1}, to the world of Pokemon. You are {number1} years old and you are starting your Pokemon journey with your {adj1} {pokemon1}, nicknamed {name2}. You train intensely and beat up {number2} Rattatas. Now you're finally ready to {verb1} Brock's level 12 Onix. After defeating Brock, you catch a {pokemon2} with your one and only Masterball. With your {adj1} {pokemon1}, {name2}, and your {pokemon2}, you continue your journey to eventually challenge the {adj2} 4!",
+      "text": "Welcome {name1}, to the world of Pokemon. You are {number1} years old and you are starting your Pokemon journey with your {adj1} {pokemon1}, nicknamed {name2}. You train intensely and beat up {number2} Rattatas. Now you're finally ready to {verbTransitive1} Brock's level 12 Onix. After defeating Brock, you catch a {pokemon2} with your one and only Masterball. With your {adj1} {pokemon1}, {name2}, and your {pokemon2}, you continue your journey to eventually challenge the {adj2} 4!",
       "inputs": [
         { "id": "name1", "question": "What is your name?" },
         { "id": "number1", "question": "Please provide a small whole number." },
@@ -102,7 +111,10 @@
         { "id": "pokemon1", "question": "Now, give me a Pokemon." },
         { "id": "name2", "question": "What is your favorite name?" },
         { "id": "number2", "question": "Please provide a large whole number." },
-        { "id": "verb1", "question": "Please provide a verb." },
+        {
+          "id": "verbTransitive1",
+          "question": "Please provide a transitive verb."
+        },
         { "id": "pokemon2", "question": "How about another Pokemon?" },
         { "id": "adj2", "question": "Last one! I need another adjective." }
       ]
