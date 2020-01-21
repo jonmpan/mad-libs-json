@@ -64,7 +64,7 @@
       "description": "What does a cat do every day? Try this to find out!",
       "tags": ["cat", "a day in a cat's life"],
       "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/moxie.png",
-      "text": "The cat named {name1}, woke up after sleeping for {number1} hours. Then {name1} found a terrifying {noun1} in its litter box! In response, {name1} {verbTransitivePast1} the {noun1}. {name1} started {adv1} meowing because it hadn't been fed for {number2} seconds. After being fed {nounPlural1}, {name1} went up to its owner and {adv2} {verbTransitivePast2} its owner's {bodyPart1}.",
+      "text": "The cat named {name1}, woke up after sleeping for {number1} hours. Then {name1} found a terrifying {noun1} in its litter box! In response, {name1} {verbTransitivePast1} the {noun1}. {name1} started {adv1} meowing because it hadn't been fed for {number2} seconds. After being fed {nounPlural1}, {name1} went up to its owner and {verbTransitivePast2} its owner's {bodyPart1}.",
       "inputs": [
         { "id": "name1", "question": "Please provide the name of the cat." },
         { "id": "number1", "question": "I recommend a large number." },
@@ -79,7 +79,6 @@
         { "id": "adv1", "question": "Quickly give me an adverb!" },
         { "id": "number2", "question": "A small number here would be funny." },
         { "id": "nounPlural1", "question": "Provide a plural noun." },
-        { "id": "adv2", "question": "I need another adverb." },
         {
           "id": "verbTransitivePast2",
           "question": "Almost there! Give me a past tense transitive verb."
@@ -110,27 +109,30 @@
     },
     {
       "name": "Bucketlist",
-      "description": "A bucket list full of poop..",
+      "description": "Your new and improved bucketlist.",
       "tags": ["Bucketlist", "bucket", "list"],
       "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/bucket.png",
-      "text": "My Bucketlist: <br>1. {verbTransitive1} to {place1}<br>2. Go {gerund1} at {place2}<br>3. Get {celebrityM1}'s autograph <br>4. {verbIntransitive2} in a {noun1}",
+      "text": "My Bucketlist: <br>1. {verbTransitive1} all the {nounPlural1}<br>2. Meet {celebrity1} at {place1}<br>3. {verbTransitive2} {relative1} just because<br>4. Grow an extra {bodyPart1}",
       "inputs": [
         {
           "id": "verbTransitive1",
-          "question": "Please transitive verb."
+          "question": "Please provide a transitive verb."
         },
-        { "id": "place1", "question": "Provide a boring place." },
-        { "id": "gerund1", "question": "Please provide a verb ending in ing." },
+        { "id": "nounPlural1", "question": "Provide a noun." },
+        { "id": "celebrity1", "question": "Tell me your favorite celebrity." },
+        {
+          "id": "place1",
+          "question": "What's your favorite fast food restaurant?"
+        },
         {
           "id": "verbIntransitive2",
-          "question": "Now for an intransitive verb."
+          "question": "I need another transitive verb."
         },
         {
-          "id": "noun1",
-          "question": "Please provide a object that can hold something."
+          "id": "relative1",
+          "question": "Now give me a type of relative, like cousin, or uncle Bob."
         },
-        { "id": "place2", "question": "Please provide another place." },
-        { "id": "celebrityM1", "question": "Please provide a celebrity." }
+        { "id": "bodyPart1", "question": "Lastly, provide a body part." }
       ]
     },
     {
