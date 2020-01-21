@@ -1,6 +1,96 @@
 {
   "madLibs": [
     {
+      "name": "Walmart Shopping",
+      "tags": [
+        "Walmart Shopping",
+        "Walmart",
+        "Shopping",
+        "test",
+        "test2",
+        "test3"
+      ],
+      "description": "Shopping at Walmart!",
+      "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/walmart.png",
+      "text": "Come {verb1} at WALMART, where you`ll receive {adj1} discounts on all of your favorite brand name {nounPlural1}. Our {adj2} and {gerund1} associates are there to {verb2} you {number1} hours a day. Here you will find {adj3} prices on the {nounPlural2} you need. {nounPlural3} for the moms, {nounPlural4} for the kids and all the latest electronics for the {relative1}. So come on down to your {adj4} {adj5} WALMART where the {nounPlural5} come first.",
+      "inputs": [
+        { "id": "verb1", "question": "Please provide a verb." },
+        { "id": "adj1", "question": "Now give me an adjective!" },
+        { "id": "nounPlural1", "question": "Next, I need a plural noun." },
+        { "id": "adj2", "question": "Give me another adjective." },
+        { "id": "gerund1", "question": "Please provide a verb ending in ing." },
+        { "id": "verb2", "question": "I need another verb." },
+        { "id": "number1", "question": "Please provide a number." },
+        { "id": "adj3", "question": "I need another adjective." },
+        { "id": "nounPlural2", "question": "Give me a plural noun." },
+        { "id": "nounPlural3", "question": "Give me another plural noun." },
+        { "id": "nounPlural4", "question": "I need ANOTHER plural noun." },
+        { "id": "relative1", "question": "Please provide a type of relative." },
+        { "id": "adj4", "question": "I need an adjective." },
+        { "id": "adj5", "question": "One more adjective." },
+        { "id": "nounPlural5", "question": "Last one! Plural noun." }
+      ]
+    },
+    {
+      "name": "Romantic Wedding",
+      "description": "Customize your romantic wedding adventure.",
+      "tags": ["Best Wedding Ever", "wedding", "best", "ever", "best wedding"],
+      "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/wedding.png",
+      "text": "{name1}'s and {celebrity1}'s {adj1} wedding had {number1} guests attend. During the ceremony, the bride {adv1} vowed to {verb1} the groom's {bodyPart1} for the rest of their lives. All the guests {verbPast1} when the groom vowed to {verb2} the bride in {adj2} matrimony. At the {adj3} reception, filled with {nounPlural1} and {noun2} centerpieces, {relative1} stunned the crowd by {gerund1}.<br>The groom and bride lived {adv3} ever after.",
+      "inputs": [
+        { "id": "name1", "question": "Please provide the name of the bride." },
+        { "id": "celebrity1", "question": "Please provide a celebrity." },
+        { "id": "adj1", "question": "Now for an adjective." },
+        { "id": "number1", "question": "Give me a number." },
+        { "id": "adv1", "question": "Now for an adverb." },
+        { "id": "verb1", "question": "I need a verb." },
+        { "id": "bodyPart1", "question": "Yo quiero a body part." },
+        { "id": "verbPast1", "question": "Give me a past tense verb." },
+        { "id": "verb2", "question": "Provide another verb." },
+        { "id": "adj2", "question": "Now for another adjective." },
+        { "id": "adj3", "question": "Now I need a third adjective." },
+        { "id": "nounPlural1", "question": "Give me a plural noun." },
+        { "id": "noun2", "question": "Please  provide a single noun." },
+        { "id": "relative1", "question": "Please provide a relative." },
+        {
+          "id": "gerund1",
+          "question": "Almost done! Please provide a gerund, a verb ending in ing."
+        },
+        { "id": "adv3", "question": "Last one! Please provide another adverb" }
+      ]
+    },
+    {
+      "name": "A day in a cat's life",
+      "description": "What does a cat do every day? Try this to find out!",
+      "tags": ["cat", "a day in a cat's life"],
+      "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/moxie.png",
+      "text": "The cat named {name1}, woke up after sleeping for {number1} hours. Then {name1} found a terrifying {noun1} in its litter box! In response, {name1} {verbTransitivePast1} the {noun1}. {name1} started {adv1} meowing because it hadn't been fed for {number2} seconds. After being fed {nounPlural1}, {name1} went up to its owner and {adv2} {verbTransitivePast2} its owner's {bodyPart1}.",
+      "inputs": [
+        { "id": "name1", "question": "Please provide the name of the cat." },
+        { "id": "number1", "question": "I recommend a large number." },
+        {
+          "id": "noun1",
+          "question": "How about a noun, one that is scary 🙀!"
+        },
+        {
+          "id": "verbTransitivePast1",
+          "question": "Now I need a past tense transitive verb, ending in ed."
+        },
+        { "id": "adv1", "question": "Quickly give me an adverb!" },
+        { "id": "number2", "question": "A small number here would be funny." },
+        { "id": "nounPlural1", "question": "Provide a plural noun." },
+        { "id": "adv2", "question": "I need another adverb." },
+        {
+          "id": "verbTransitivePast2",
+          "question": "Almost there! Give me a past tense transitive verb."
+        },
+        {
+          "id": "bodyPart1",
+          "question": "Last one! I need a body part to continue."
+        }
+      ]
+    },
+    {
       "name": "Becoming a Pokemon Master",
       "description": "Your journey to becoming a Pokemon Master",
       "tags": ["Becoming a Pokemon Master", "Pokemon", "Pokemon Master"],
@@ -20,27 +110,27 @@
     },
     {
       "name": "Bucketlist",
-      "description": "A bucket list full of poop. Made by Mackenzie.",
+      "description": "A bucket list full of poop..",
       "tags": ["Bucketlist", "bucket", "list"],
       "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/bucket.png",
-      "text": "My Bucketlist: <br>1. {verb1} to {place1}<br>2. Go {gerund1} at {place2}<br>3. Get {celebrityM1}'s autograph <br>4. {verb2} in a {noun1}",
+      "text": "My Bucketlist: <br>1. {verbTransitive1} to {place1}<br>2. Go {gerund1} at {place2}<br>3. Get {celebrityM1}'s autograph <br>4. {verbIntransitive2} in a {noun1}",
       "inputs": [
         {
-          "id": "verb1",
-          "question": "Please provide a present tense movement verb, like walk, crawl, and roll."
+          "id": "verbTransitive1",
+          "question": "Please transitive verb."
         },
-        { "id": "place1", "question": "Provide a place." },
+        { "id": "place1", "question": "Provide a boring place." },
         { "id": "gerund1", "question": "Please provide a verb ending in ing." },
         {
-          "id": "verb2",
-          "question": "Now for a verb that is doing something in something."
+          "id": "verbIntransitive2",
+          "question": "Now for an intransitive verb."
         },
-        { "id": "place2", "question": "Please provide a place." },
-        { "id": "celebrityM1", "question": "Please provide a celebrity." },
         {
           "id": "noun1",
           "question": "Please provide a object that can hold something."
-        }
+        },
+        { "id": "place2", "question": "Please provide another place." },
+        { "id": "celebrityM1", "question": "Please provide a celebrity." }
       ]
     },
     {
@@ -106,127 +196,6 @@
         { "id": "verb2", "question": "Please provide another verb." },
         { "id": "adj2", "question": "Please provide another adjective." },
         { "id": "noun3", "question": "Please provide another noun." }
-      ]
-    },
-    {
-      "name": "Walmart Shopping",
-      "tags": [
-        "Walmart Shopping",
-        "Walmart",
-        "Shopping",
-        "test",
-        "test2",
-        "test3"
-      ],
-      "description": "Shopping at Walmart!",
-      "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/walmart.png",
-      "text": "Come {verb1} at WALMART, where you`ll receive {adj1} discounts on all of your favorite brand name {nounPlural1}. Our {adj2} and {gerund1} associates are there to {verb2} you {number1} hours a day. Here you will find {adj3} prices on the {nounPlural2} you need. {nounPlural3} for the moms, {nounPlural4} for the kids and all the latest electronics for the {relative1}. So come on down to your {adj4} {adj5} WALMART where the {nounPlural5} come first.",
-      "inputs": [
-        { "id": "verb1", "question": "Please provide a verb." },
-        { "id": "adj1", "question": "Now give me an adjective!" },
-        { "id": "nounPlural1", "question": "Next, I need a plural noun." },
-        { "id": "adj2", "question": "Give me another adjective." },
-        { "id": "gerund1", "question": "Please provide a verb ending in ing." },
-        { "id": "verb2", "question": "I need another verb." },
-        { "id": "number1", "question": "Please provide a number." },
-        { "id": "adj3", "question": "I need another adjective." },
-        { "id": "nounPlural2", "question": "Give me a plural noun." },
-        { "id": "nounPlural3", "question": "Give me another plural noun." },
-        { "id": "nounPlural4", "question": "I need ANOTHER plural noun." },
-        { "id": "relative1", "question": "Please provide a type of relative." },
-        { "id": "adj4", "question": "I need an adjective." },
-        { "id": "adj5", "question": "One more adjective." },
-        { "id": "nounPlural5", "question": "Last one! Plural noun." }
-      ]
-    },
-    {
-      "name": "Romantic Wedding",
-      "description": "Customize your romantic wedding adventure.",
-      "tags": ["Best Wedding Ever", "wedding", "best", "ever", "best wedding"],
-      "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/wedding.png",
-      "text": "{name1}'s and {celebrity1}'s {adj1} wedding had {number1} guests attend. During the ceremony, the bride {adv1} vowed to {verb1} the groom's {bodyPart1} for the rest of their lives. All the guests {verbPast1} when the groom vowed to {verb2} the bride in {adj2} matrimony. At the {adj3} reception, filled with {nounPlural1} and {noun2} centerpieces, {relative1} stunned the crowd by {gerund1}.<br>The groom and bride lived {adv3} ever after.",
-      "inputs": [
-        { "id": "name1", "question": "Please provide the name of the bride." },
-        { "id": "celebrity1", "question": "Please provide a celebrity." },
-        { "id": "adj1", "question": "Now for an adjective." },
-        { "id": "number1", "question": "Give me a number." },
-        { "id": "adv1", "question": "Now for an adverb." },
-        { "id": "verb1", "question": "I need a verb." },
-        { "id": "bodyPart1", "question": "Yo quiero a body part." },
-        { "id": "verbPast1", "question": "Give me a past tense verb." },
-        { "id": "verb2", "question": "Provide another verb." },
-        { "id": "adj2", "question": "Now for another adjective." },
-        { "id": "adj3", "question": "Now I need a third adjective." },
-        { "id": "nounPlural1", "question": "Give me a plural noun." },
-        { "id": "noun2", "question": "Please  provide a single noun." },
-        { "id": "relative1", "question": "Please provide a relative." },
-        {
-          "id": "gerund1",
-          "question": "Almost done! Please provide a gerund, a verb ending in ing."
-        },
-        { "id": "adv3", "question": "Last one! Please provide another adverb" }
-      ]
-    },
-    {
-      "name": "A day in a cat's life",
-      "description": "What does a cat do every day? Try this to find out!",
-      "tags": ["cat", "a day in a cat's life"],
-      "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/moxie.png",
-      "text": "The cat named {name1}, woke up after sleeping for {number1} hours. Then {name1} found a terrifying {noun1} in its litter box! In response, {name1} {verbPast1} the {noun1}. {name1} started {adv1} meowing because it hadn't been fed for {number2} seconds. After being fed {nounPlural1}, {name1} went up to its owner and {adv2} {verbPast2} its owner's {bodyPart1}.",
-      "inputs": [
-        { "id": "name1", "question": "Please provide the name of the cat." },
-        { "id": "number1", "question": "I recommend a large number." },
-        {
-          "id": "noun1",
-          "question": "How about a noun, one that is scary 🙀!"
-        },
-        {
-          "id": "verbPast1",
-          "question": "Now I need a past tense verb, ending in ed."
-        },
-        { "id": "adv1", "question": "Quickly give me an adverb!" },
-        { "id": "number2", "question": "A small number here would be funny." },
-        { "id": "nounPlural1", "question": "Provide a plural noun." },
-        { "id": "adv2", "question": "I need another adverb." },
-        {
-          "id": "verbPast2",
-          "question": "Almost there! Give me a past tense verb."
-        },
-        {
-          "id": "bodyPart1",
-          "question": "Last one! I need a body part to continue."
-        }
-      ]
-    },
-    {
-      "name": "Test",
-      "description": "One of each type of word",
-      "tags": ["Test"],
-      "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/chicken-2.png",
-      "text": "{adj1} {noun1} {animal1} {ono1} {adv1} {gerund1} {bodyPart1} {animal1} {nounPlural1} {celebrity1} {celebrityF1} {celebrityM1} {name1} {nameF1} {nameM1} {pokemon1} {number1} {place1} {relative1}",
-      "inputs": [
-        { "id": "adj1", "question": "Please provide an adjective." },
-        { "id": "noun1", "question": "Please provide a noun." },
-        { "id": "animal1", "question": "Please provide an animal." },
-        { "id": "ono1", "question": "Please provide an onomatopoeia." },
-        { "id": "adv1", "question": "Please provide an adverb." },
-        { "id": "gerund1", "question": "Please provide a gerund." },
-        { "id": "bodyPart1", "question": "Please provide a body part." },
-        { "id": "animal1", "question": "Please provide an animal." },
-        { "id": "nounPlural1", "question": "Please provide a plural noun." },
-        { "id": "celebrity1", "question": "Please provide a celebrity." },
-        {
-          "id": "celebrityF1",
-          "question": "Please provide a female celebrity."
-        },
-        { "id": "celebrityM1", "question": "Please provide a male celebrity." },
-        { "id": "name1", "question": "Please provide a name." },
-        { "id": "nameF1", "question": "Please provide a female name." },
-        { "id": "nameM1", "question": "Please provide a male name." },
-        { "id": "pokemon1", "question": "Please provide a Pokemon." },
-        { "id": "number1", "question": "Please provide a number." },
-        { "id": "place1", "question": "Please provide a place." },
-        { "id": "relative1", "question": "Please provide a relative." }
       ]
     }
   ]
