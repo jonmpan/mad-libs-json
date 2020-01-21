@@ -112,7 +112,7 @@
       "description": "Your new and improved bucketlist.",
       "tags": ["Bucketlist", "bucket", "list"],
       "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/bucket.png",
-      "text": "My Bucketlist: <br>1. {verbTransitive1} all the {nounPlural1}<br>2. Meet {celebrity1} at {place1}<br>3. {verbTransitive2} {relative1} just because<br>4. Grow an extra {bodyPart1}",
+      "text": "My Bucketlist: <br>1. {verbTransitive1} all the {nounPlural1}<br>2. Meet {celebrity1} at {place1}<br>3. {verbTransitive2} my {relative1} just because<br>4. Grow an extra {bodyPart1}",
       "inputs": [
         {
           "id": "verbTransitive1",
@@ -125,7 +125,7 @@
           "question": "What's your favorite fast food restaurant?"
         },
         {
-          "id": "verbIntransitive2",
+          "id": "verbTransitive2",
           "question": "I need another transitive verb."
         },
         {
