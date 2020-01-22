@@ -39,11 +39,12 @@
       "description": "Customize your romantic wedding adventure.",
       "tags": ["Best Wedding Ever", "wedding", "best", "ever", "best wedding"],
       "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/wedding.png",
-      "text": "The groom, {celebrityM1}, and the bride, {nameF1}, had a wedding where {number1} guests attended. During the ceremony, {nameF1} {adv1} vowed to love {celebrityM1}'s {bodyPart1} for the rest of their lives. All the guests {verbIntransitivePast1} when {celebrityM1} vowed to {verbTransitive2} {nameF1} in {adj2} matrimony. At the reception, filled with {noun2} centerpieces, the crowd was stunned when the bride's {relative1} tried to {verbTransitive3} {celebrityM1}.<br>The groom and bride lived {adv3} ever after.",
+      "text": "The groom, {celebrityM1}, and the bride, {nameF1}, had {number1} guests attend their {adj1} wedding. During the ceremony, {nameF1} {adv1} vowed to love {celebrityM1}'s {bodyPart1} for the rest of their lives. All the guests {verbIntransitivePast1} when {celebrityM1} vowed to {verbTransitive2} {nameF1} in {adj2} matrimony. At the reception, filled with {noun2} centerpieces, the crowd was stunned when the bride's {relative1} tried to {verbTransitive3} {celebrityM1}.<br>The groom and bride lived {adv3} ever after.",
       "inputs": [
         { "id": "nameF1", "question": "Please provide the name of the bride." },
         { "id": "celebrityM1", "question": "Please provide a celebrity." },
         { "id": "number1", "question": "Give me a number." },
+        { "id": "adj1", "question": "Now for an adjective." },
         { "id": "adv1", "question": "Now for an adverb." },
         { "id": "bodyPart1", "question": "Yo quiero a body part." },
         {
