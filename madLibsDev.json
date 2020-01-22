@@ -152,7 +152,7 @@
       "description": "Your dream man.",
       "tags": ["Dream Man", "Dream", "Man", "Prince"],
       "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/dream-man-2.png",
-      "text": "My dream man should be {adj1} and {adj2}. I want his {bodyPart1} to be like {celebrity1} and his {bodyPart2} to be like {name1}'s.<br>His intelligence should be that of a {animal1} and he should always wash my {bodyPart3}. I hope he takes me to {place1}, where he should whisper {adj3} into my {bodyPart4}. Such a perfect man is hard to find, but I think I've found him in {name2}.",
+      "text": "My dream man should be {adj1} and {adj2}. I want his {bodyPart1} to be like {celebrity1}'s and his {bodyPart2} to be like {name1}'s.<br>His intelligence should be that of a {animal1} and he should always wash my {bodyPart3}. I hope he takes me to {place1}, where he should whisper {adj3} into my {bodyPart4}. Such a perfect man is hard to find, but I think I've found him in {name2}.",
       "inputs": [
         { "id": "adj1", "question": "Please provide an adjective." },
         { "id": "adj2", "question": "Please provide another adjective." },
@@ -178,7 +178,8 @@
         "Old MacDonald",
         "McDonald's",
         "Old MacDonald had a farm",
-        "farm"
+        "farm",
+        "Old McDonald"
       ],
       "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/farmer.png",
       "text": "{adj1} Macdonald had a {noun1}<br>E-I-E-I-O<br>And on that {noun1} he had a {animal1}<br>E-I-E-I-O<br>With a {ono1} {ono1} here<br>And a {ono1} {ono1} there<br>Here a {ono1}, there a {ono1}<br>Everywhere a {ono1} {ono1}<br>{adj1} Macdonald had a {noun1}<br>E-I-E-I-O.",
