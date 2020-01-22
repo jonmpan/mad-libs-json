@@ -186,6 +186,25 @@
         { "id": "animal1", "question": "I need an animal to continue." },
         { "id": "ono1", "question": "Provide an onomatopoeia." }
       ]
+    },
+    {
+      "name": "My Perfect Pizza",
+      "description": "You wanted what on your pizza?",
+      "tags": ["My Perfect Pizza", "Pizza"],
+      "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/pizza.png",
+      "text": "My favorite pizza place is {celebrity1}'s Pizzaria, where the dough is made from {country1}'s finest ground {nounPlural1}. My favorite toppings are {nounPlural2}, {bodyPart1}s, and finely chopped {animal1}s. Then, just sprinkle some {animal2} cheese with the {adj1} sauce to make the perfect pizza. {celebrity1}'s Pizzaria is known to bake their pizza for {number1} minutes. Finally, it's best to eat that pizza at {place1}.",
+      "inputs": [
+        { "id": "celebrity1", "question": "Give me a celebrity." },
+        { "id": "country1", "question": "How about a country?" },
+        { "id": "nounPlural1", "question": "Now for a plural noun!" },
+        { "id": "nounPlural2", "question": "Another plural noun!" },
+        { "id": "bodyPart1", "question": "How about a body part?" },
+        { "id": "animal1", "question": "Now give me an animal?" },
+        { "id": "animal2", "question": "How about another animal?" },
+        { "id": "adj1", "question": "Give me an adjective." },
+        { "id": "number1", "question": "Now for a number." },
+        { "id": "place1", "question": "Give me a place" }
+      ]
     }
   ]
 }
