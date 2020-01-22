@@ -39,14 +39,13 @@
       "description": "Customize your romantic wedding adventure.",
       "tags": ["Best Wedding Ever", "wedding", "best", "ever", "best wedding"],
       "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/wedding.png",
-      "text": "{name1}'s and {celebrity1}'s {adj1} wedding had {number1} guests attend. During the ceremony, the bride {adv1} vowed to {verbTransitive1} the groom's {bodyPart1} for the rest of their lives. All the guests {verbIntransitivePast1} when the groom vowed to {verbTransitive2} the bride in {adj2} matrimony. At the {adj3} reception, filled with {nounPlural1} and {noun2} centerpieces, the {relative1} stunned the crowd by {gerund1}.<br>The groom and bride lived {adv3} ever after.",
+      "text": "{nameF1}'s and {celebrityM1}'s {adj1} wedding had {number1} guests attend. During the ceremony, the bride {adv1} vowed to love the groom's {bodyPart1} for the rest of their lives. All the guests {verbIntransitivePast1} when the groom vowed to {verbTransitive2} the bride in {adj2} matrimony. At the reception, filled with {noun2} centerpieces, the crowd was stunned when the {relative1} tried to {verbTransitive3} {celebrity1}.<br>The groom and bride lived {adv3} ever after.",
       "inputs": [
-        { "id": "name1", "question": "Please provide the name of the bride." },
-        { "id": "celebrity1", "question": "Please provide a celebrity." },
+        { "id": "nameF1", "question": "Please provide the name of the bride." },
+        { "id": "celebrityM1", "question": "Please provide a celebrity." },
         { "id": "adj1", "question": "Now for an adjective." },
         { "id": "number1", "question": "Give me a number." },
         { "id": "adv1", "question": "Now for an adverb." },
-        { "id": "verbTransitive1", "question": "I need a transitive verb." },
         { "id": "bodyPart1", "question": "Yo quiero a body part." },
         {
           "id": "verbIntransitivePast1",
@@ -57,13 +56,11 @@
           "question": "Provide another transitive verb."
         },
         { "id": "adj2", "question": "Now for another adjective." },
-        { "id": "adj3", "question": "Now I need a third adjective." },
-        { "id": "nounPlural1", "question": "Give me a plural noun." },
         { "id": "noun2", "question": "Please  provide a single noun." },
         { "id": "relative1", "question": "Please provide a relative." },
         {
-          "id": "gerund1",
-          "question": "Almost done! Please provide a gerund, a verb ending in ing."
+          "id": "verbTransitive3",
+          "question": "Almost done! Give me another transitive verb."
         },
         { "id": "adv3", "question": "Last one! Please provide another adverb" }
       ]
