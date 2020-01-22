@@ -39,7 +39,7 @@
       "description": "Customize your romantic wedding adventure.",
       "tags": ["Best Wedding Ever", "wedding", "best", "ever", "best wedding"],
       "image": "https://raw.githubusercontent.com/jonmpan/mad-libs-json/master/images/wedding.png",
-      "text": "{nameF1}'s and {celebrityM1}'s {adj1} wedding had {number1} guests attend. During the ceremony, the bride {adv1} vowed to love the groom's {bodyPart1} for the rest of their lives. All the guests {verbIntransitivePast1} when the groom vowed to {verbTransitive2} the bride in {adj2} matrimony. At the reception, filled with {noun2} centerpieces, the crowd was stunned when the {relative1} tried to {verbTransitive3} {celebrity1}.<br>The groom and bride lived {adv3} ever after.",
+      "text": "{nameF1}'s and {celebrityM1}'s {adj1} wedding had {number1} guests attend. During the ceremony, the bride {adv1} vowed to love the groom's {bodyPart1} for the rest of their lives. All the guests {verbIntransitivePast1} when the groom vowed to {verbTransitive2} the bride in {adj2} matrimony. At the reception, filled with {noun2} centerpieces, the crowd was stunned when the {relative1} tried to {verbTransitive3} {celebrityM1}.<br>The groom and bride lived {adv3} ever after.",
       "inputs": [
         { "id": "nameF1", "question": "Please provide the name of the bride." },
         { "id": "celebrityM1", "question": "Please provide a celebrity." },
